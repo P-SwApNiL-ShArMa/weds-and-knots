@@ -380,3 +380,63 @@ header.sticky {
     color: var(--other-color);
     margin-bottom: 25px;
 }
+.about-text h4{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    line-height: 1.8;
+}
+.outer{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.f-block{
+    font-size: 22px;
+}
+.f-block i{
+    font-size: 30px;
+margin-right: 10px;
+}
+.btn-2{
+    display: inline-block;
+    font-size: 16px;
+    padding: 18px 60px 15px 40px;
+    font-weight: 700;
+    color: var(--text-color);
+    background: var(--main-color);
+    border-radius: 20px 0;
+    transition: all .7s ease;
+}
+.btn-2:hover{
+    border-radius: 0 20px 0 0;
+    background: var(--text-color);
+color: var(--background-color);
+}
+.text-center{
+    text-align: center;
+}
+.text-center h5{
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    margin-bottom: 5px;
+}
+.text-center h2{
+    font-size: var(--h2-font);
+font-weight: 700;
+line-height: 1.2;
+}
+.services-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+}
+.s-img{
+    margin-bottom: 10px;
+    overflow: hidden;
+    clip-path: polygon(0 27.5%,100% 0,100% 74%,0 99%);
+    -webkit-transition:all 300ms ease ;
+    transition: all 300ms ease;
+}
